@@ -45,7 +45,7 @@ class ProfileHeader extends StatelessWidget {
                   ),
                 ),
                 const Text(
-                  "+6284593834627392",
+                  "+621234567890",
                   style: TextStyle(
                     fontSize: 14,
                     color: Colors.black54,

@@ -5,6 +5,6 @@ class Pesan1 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(child: Text("pesan"),);
+    return Center(child: Text("pesan masih belom buat"),);
   }
 }

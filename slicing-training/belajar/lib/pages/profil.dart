@@ -8,31 +8,24 @@ class Profil1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white, 
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              
               const Padding(
                 padding: EdgeInsets.fromLTRB(16.0, 20.0, 16.0, 0.0),
                 child: Text(
-                  "My Profil",
-                  style: TextStyle(
-                    fontSize: 24,
-                    fontWeight: FontWeight.bold,
-                  ),
+                  "My Profil ku",
+                  style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
                 ),
               ),
 
-             
               const ProfileHeader(),
 
-              
               Divider(color: Colors.grey[200], thickness: 8),
 
-              
               const Padding(
                 padding: EdgeInsets.fromLTRB(16.0, 20.0, 16.0, 10.0),
                 child: Text(
@@ -45,7 +38,6 @@ class Profil1 extends StatelessWidget {
                 ),
               ),
 
-              
               ProfileMenuItem(
                 icon: Icons.receipt_long_outlined,
                 title: "My Orders",
@@ -65,7 +57,6 @@ class Profil1 extends StatelessWidget {
                 title: "Promo",
                 onTap: () {
                   print("Promo di-tap!");
-                 
                 },
               ),
               ProfileMenuItem(
@@ -89,8 +80,7 @@ class Profil1 extends StatelessWidget {
                   print("Language di-tap!");
                 },
               ),
-              
-            
+
               const SizedBox(height: 10),
               Divider(color: Colors.grey[200], indent: 16, endIndent: 16),
 
